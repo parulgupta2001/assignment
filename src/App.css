@@ -1,3 +1,14 @@
-/* .App {
-  text-align: center;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap");
+
+* {
+  --primary-font-color: black;
+  --secondary-font-color: grey;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
