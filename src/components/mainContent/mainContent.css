@@ -78,7 +78,7 @@ main {
 .other-news-content {
   display: flex;
   flex-direction: column;
-  row-gap: 0.8rem;
+  row-gap: 1.5rem;
 }
 
 .other-news-content-img {
