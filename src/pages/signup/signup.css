@@ -37,24 +37,24 @@ input,
 button {
   height: 2rem;
   width: 15rem;
-  border: 1px solid whitesmoke;
+  border: 1px solid var(--border-color);
   border-radius: 0.5rem;
   font-size: 0.75rem;
   font-weight: 600;
-  color: grey;
+  color: var(--secondary-font-color);
 }
 
 .signup-option {
   display: flex;
   column-gap: 3.5rem;
   font-size: small;
-  color: #7f00ff;
+  color: var(--background-color);
   font-weight: 600;
   padding-bottom: 1rem;
 }
 
 .signup-btn {
-  color: white;
+  color: var(--btn-background-color);
   background-color: #7f00ff;
   border: none;
   cursor: pointer;
@@ -62,8 +62,8 @@ button {
 
 .google-signup,
 .github-signup {
-  background-color: white;
-  border: 1px solid whitesmoke;
+  background-color: var(--btn-background-color);
+  border: 1px solid var(--border-color);
   display: flex;
   align-items: center;
   cursor: pointer;

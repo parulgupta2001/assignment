@@ -8,7 +8,7 @@ export function MainContent() {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://newsapi.org/v2/everything?q=tesla&from=2022-10-10&sortBy=publishedAt&apiKey=a31566234ba547489e788093f36daade"
+        "https://newsapi.org/v2/everything?q=tesla&from=2022-10-15&sortBy=publishedAt&apiKey=a31566234ba547489e788093f36daade"
       );
       setNewsData(response.data.articles);
       console.log(response.data.articles);
@@ -44,7 +44,7 @@ export function MainContent() {
       <div className="lower-content-container">
         <div className="main-content-header">Artikel Terbaru</div>
         <div className="other-news-articles">
-          {newsData.slice(4, 12)?.map((data) => (
+          {newsData.slice(4, 16)?.map((data) => (
             <div className="other-news-content">
               <img className="other-news-content-img" src={data.urlToImage} />
               <div className="other-news-content-title">{data.title}</div>

@@ -19,8 +19,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 16rem 0;
-
+  align-items: center;
   font-size: 0.7rem;
   font-weight: bolder;
 }
@@ -33,4 +32,45 @@
 .icon {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.responsive-navigation-option {
+  display: none;
+}
+
+.drawer-menu {
+  position: absolute;
+  min-width: 6rem;
+  background-color: var(--border-color);
+  top: 4rem;
+  right: 1;
+  z-index: 3;
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  font-weight: 700;
+  font-size: small;
+  cursor: pointer;
+}
+
+.drawer-menu li:hover {
+  text-decoration: underline var(--primary-font-color);
+}
+
+.drawer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .responsive-navigation-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-container {
+    display: none;
+  }
 }
