@@ -3,6 +3,9 @@
 * {
   --primary-font-color: black;
   --secondary-font-color: grey;
+  --btn-background-color: white;
+  --background-color: #7f00ff;
+  --border-color: whitesmoke;
 }
 
 .App {
@@ -11,4 +14,8 @@
   row-gap: 1rem;
   width: 100%;
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
 }

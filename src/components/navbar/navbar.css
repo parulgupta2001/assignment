@@ -1,5 +1,5 @@
 .logo {
-  color: white;
+  color: var(--btn-background-color);
   background-color: orangered;
   height: 2rem;
   width: 2rem;

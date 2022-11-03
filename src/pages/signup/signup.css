@@ -1,0 +1,90 @@
+.signup-container {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-card {
+  background-color: var(--btn-background-color);
+  height: 22rem;
+  width: 18rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: var(--background-color);
+}
+
+p {
+  font-size: small;
+  color: var(--secondary-font-color);
+  padding-top: 0.3rem;
+}
+
+input,
+button {
+  height: 2rem;
+  width: 15rem;
+  border: 1px solid whitesmoke;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: grey;
+}
+
+.signup-option {
+  display: flex;
+  column-gap: 3.5rem;
+  font-size: small;
+  color: #7f00ff;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.signup-btn {
+  color: white;
+  background-color: #7f00ff;
+  border: none;
+  cursor: pointer;
+}
+
+.google-signup,
+.github-signup {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  column-gap: 0.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  padding: 1.5rem 0 0.8rem;
+}
+
+.google-and-github-signup {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  row-gap: 0.5rem;
+}
+
+.signup-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+}
